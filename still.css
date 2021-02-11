@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing:border-box;
+	}
+body{
+	background-image:url(resim/bg.jpg); 
+	}
+#sayfa{
+	width:80%;
+	margin:auto;
+	background:#FFF;
+	}	
+#ustmenu{
+	width:100%; height:auto;
+	margin:0; padding:0;
+	box-sizing:border-box;
+	}
+#logo{
+	width:20%; float:left; margin:5px;
+	}	
+#ustmenu ul{
+	height:100%; width:auto;
+	margin:0px; padding:0px;
+	}	
+#ustmenu ul li{
+	list-style:none;
+	}	
+#ustmenu ul li a{
+	text-decoration:none;
+	display:block; float:left;
+	line-height:50px; height:50px;
+	margin:15px;
+	color:#060;
+	}
+#ustmenu ul li a:hover{
+	color:#F00;
+	}		
+#icerik{
+	width:100%;
+	height:auto;
+	background:#FFF;
+	}	
+section{
+	width:100%;
+	height:auto;
+	background-color:#FFFFFF;
+	overflow:auto;}
+		
+#banner{width:100%;}
+#divider{width:100%;}
+	
+main{
+	width:100%;
+	height:auto;
+	float:left;
+	}
+	
+.kutu{
+	height:auto; width:25%;
+	margin:20px; float:left;
+	}	
+h5{
+	border-bottom:2px dashed #999;
+	text-align:center;
+	}
+#orta
+{
+    width: 990px;
+    height: 320px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+    padding: 0px;
+}
+#sol
+{
+    width: 480px;
+	 height: 320px;
+    background-image: url(resim/bg.jpg);
+    margin-left: 10px;
+    margin-right: 5px;
+    float: left;
+}
+h3
+{
+    text-indent: 5px;
+}
+#sag
+{
+    width: 480px;
+	 height: 320px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 5px;
+    background-image: url(resim/bg.jpg);
+}
+iframe
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#footer{
+	color:#000;
+	text-align:center;
+	}
